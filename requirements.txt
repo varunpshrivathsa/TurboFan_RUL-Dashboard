@@ -7,3 +7,9 @@ scikit-learn
 xgboost
 requests
 plotly>=5.15.0
+streamlit
+pandas
+numpy
+requests
+plotly>=5.15.0
+scipy
