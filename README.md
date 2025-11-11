@@ -1,9 +1,6 @@
 
 ---
 
-### For the Dashboard Repo (`TurboFan_RUL-Dashboard`)
-Copy the following into its own `README.md`:
-
 ```markdown
 # TurboFan_RUL-Dashboard  
 Interactive Streamlit dashboard for visualizing Remaining Useful Life (RUL) predictions and model performance metrics from the TurboFanRUL backend API.
