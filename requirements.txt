@@ -6,3 +6,4 @@ seaborn
 scikit-learn
 xgboost
 requests
+plotly>=5.15.0
