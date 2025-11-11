@@ -43,9 +43,12 @@ sns.set_theme(style="darkgrid")
 # ---------------- UTILS ----------------
 @st.cache_data
 def load_data():
-    X_test = np.load(DATA_DIR / "X_test.npy")
-    y_test = np.load(DATA_DIR / "y_test.npy")
+    # Placeholder dummy arrays (Streamlit Cloud doesn't have local .npy files)
+    import numpy as np
+    X_test = np.zeros((10, 5))  # adjust shape if necessary
+    y_test = np.zeros(10)
     return X_test, y_test
+
 
 @st.cache_resource
 def load_models():
